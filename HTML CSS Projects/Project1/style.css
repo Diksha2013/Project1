@@ -3,7 +3,6 @@
     margin: 0;
 }
 
-
 /* header-section */
 .header-section{
     display: flex;
@@ -14,7 +13,7 @@
 .container{
     display: flex;
     flex-direction: column;
-    align-items: left;
+    /* align-items: left; */
     height: 100vh;
     width : 61vw;
     padding-left: 8rem;
@@ -25,7 +24,7 @@
     height: 2rem;
     /* border: 2px solid black; */
     justify-content: space-between;
-    margin-top: 4rem;
+    margin-top: 3.5rem;
 }
 ul{
     display:flex;
@@ -38,14 +37,14 @@ li{
 }
 #head-4{
     font-size: 2rem;
+    color:#1E0E62;
 }
-
 
 .info{
     /* border: 2px solid black; */
     height: 32%;
     width: 70%; 
-    margin-top: 8rem;
+    margin-top: 6rem;
     padding-right: 4rem;
     box-sizing: border-box;
 } 
@@ -62,7 +61,6 @@ li{
     color: #15143966;
     opacity: 70%;
 }
-
 
 .box{
     height: 6rem;
@@ -115,14 +113,15 @@ li{
     display:flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 .description-box{
-    height: 20%;
+    height: 18%;
     width: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
     color: #FFFFFF;
 }
 .heading1{
@@ -140,7 +139,6 @@ li{
     width: 80%;
     justify-content: space-between;
     /* border: 2px solid black; */
-    margin-top: 1rem;
 }
 .feature-box{
     height: 100%;
@@ -156,7 +154,7 @@ li{
     color: #FFFFFF;
 }
 .learn-more{
-    margin-top: 2.5rem;
+    margin-top: 2rem;
     height: 3rem;
     width: 10rem; 
     border-radius: 2rem;
@@ -192,7 +190,7 @@ li{
     align-items: center;
 }
 .team-heading{
-    font-size: 3rem;
+    font-size: 2.7rem;
     color:#1E0E62;
 }
 .team-info{
@@ -215,11 +213,9 @@ li{
     box-sizing: border-box;
 }
 
-
-
 .main-area{
     display: flex;
-    height: 55%;
+    height: 50%;
     width: 80%;
     justify-content: space-between;
     /* border: 2px solid black;  */
@@ -237,13 +233,13 @@ li{
     box-sizing: border-box;
 }
 .heading3{
-    font-size: 2rem;
+    font-size: 1.7rem;
     color: #1E0E62;
 }
 .role{
     text-transform: uppercase;
     color:#15143966;
-    font-size: 1.3rem;
+    font-size: 1rem;
     line-height: 1.7rem;
     letter-spacing: 2px;
     text-align: center;
@@ -273,7 +269,7 @@ i{
     width: 1.5rem;
 }
 #profile-photo{
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
 
 
@@ -295,12 +291,12 @@ i{
     justify-content: space-between;
 }
 .head-6{
-    font-size: 2rem;
+    font-size: 1.7rem;
     color: #FFFFFF;
 }
 .copyright{
     width: 50%;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: #FFFFFF;
 }
